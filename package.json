@@ -1,0 +1,23 @@
+{
+  "name": "proyek-akhir-bookshelf-api",
+  "version": "1.0.0",
+  "description": "ini merupakan projek akhir dicoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanuarioadimada/proyek-akhir-bookshelf-api.git"
+  },
+  "author": "yanuario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanuarioadimada/proyek-akhir-bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/yanuarioadimada/proyek-akhir-bookshelf-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "nanoid": "^5.0.8"
+  }
+}
