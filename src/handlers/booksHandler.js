@@ -123,7 +123,7 @@ const updateBookByIdHandler = (request, h) => {
     }).code(200);
 };
 
-// Handler untuk menghapus buku
+// Handler untuk delete buku
 const deleteBookByIdHandler = (request, h) => {
     const { bookId } = request.params;
     const index = books.findIndex((b) => b.id === bookId);
