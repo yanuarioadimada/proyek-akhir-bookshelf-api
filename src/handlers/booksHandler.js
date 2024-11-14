@@ -4,7 +4,7 @@ async function generateId() {
 }
 const books = require('../data/books');
 
-// Handler untuk menambahkan buku
+// Handler untuk add books
 const addBookHandler = async (request, h) => {
     const { name, year, author, summary, publisher, pageCount, readPage, reading } = request.payload;
   
